@@ -1,0 +1,33 @@
+{
+  "name": "typescriptchallenges",
+  "version": "1.0.0",
+  "description": "Solutions to TypeScript Challenges",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramondevaancapgemini/TypeScriptChallenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramondevaancapgemini/TypeScriptChallenges/issues"
+  },
+  "homepage": "https://github.com/ramondevaancapgemini/TypeScriptChallenges#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/lodash": "^4.14.85",
+    "@types/mocha": "^2.2.44",
+    "@types/sinon": "^4.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  }
+}
